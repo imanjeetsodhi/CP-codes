@@ -5,7 +5,7 @@
 # *_*       
 
 
-num = 5  # Number of rows
+num = 5 
 
 for i in range(num):
     print("*", end="")
