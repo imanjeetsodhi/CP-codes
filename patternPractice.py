@@ -141,3 +141,53 @@
 
 
 #------------------------------
+
+# n = 5
+# for i in range(n):
+#     for j in range(n-i):
+#         print(j+1, end=" ")
+#     for j in range(i):
+#         print("*", end=" ")
+#     for j in range(1,i):
+#         print("*", end=" ")
+#     print()
+
+
+# n = 5
+# for i in range(n+1):
+#     for j in range(i):
+#         print(j+1, end=" ")
+#     print()
+
+# for i in range(n):
+#     for j in range(n-i-1):
+#         print(j+1, end=" ")
+#     print()
+
+# n = 5
+# count = 0
+# for i in range(n):
+#     for j in range(i):
+#         print(count+1, end=" ")
+#         count+=1
+#     print()
+
+# n = 6
+# even=[]
+# odd=[]
+# for i in range(1, n+1):
+#     if i%2==0:
+#         even.append(i)
+# for i in range(n+1):
+#     if i%2!=0:
+#         odd.append(i)
+# odd.reverse()
+# print(*odd, *even)
+
+# n = 5
+# for i in range(n+1):
+#     for j in range(n-i):
+#         print(" ", end=" ")
+#     for k in range(i):
+#         print("*", end=" ")
+#     print()
