@@ -17,3 +17,25 @@ for i in range(n):
         max_sum = max(max_sum,current_sum) 
 
 print(max_sum) 
+
+#WAP to print sum of all the subarrays in an array
+total_sum = 0
+for i in range(n):
+    for j in range(i,n):
+        total_sum += sum(arr[i:j+1])
+print("total sum is: ", total_sum)
+
+# if we know in how many subarrays an element is present then we can directly calculate the sum of all subarrays
+
+
+
+
+
+
+
+
+
+
+
+
+
