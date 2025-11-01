@@ -8,3 +8,4 @@ for i in range(len(s)):
         count += (len(s)-i)
 
 print(count)
+
