@@ -1,4 +1,5 @@
-# In a class of n student each student marks are storedd in a list. A student passes if their marks are greater than or equal to 35. write a program to count the number of students who passed and failed the exam.
+# In a class of n student each student marks are storedd in a list. A student passes if their marks are greater than or equal to 35. 
+# write a program to count the number of students who passed and failed the exam.
 n = int(input())
 mark = []
 for i in range(n):

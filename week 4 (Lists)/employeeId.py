@@ -1,4 +1,5 @@
-# a company stores n employee IDs in a list. HR wants to print only those Ids that are even number (science odd IDs are temporary employees). print all even employee IDs seprated by space if none, print -1
+# a company stores n employee IDs in a list. HR wants to print only those Ids that are even number (science odd IDs are temporary employees). 
+# print all even employee IDs seprated by space if none, print -1
 
 # n = int(input())
 # employee = []
